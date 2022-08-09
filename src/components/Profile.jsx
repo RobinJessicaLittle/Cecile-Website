@@ -1,16 +1,48 @@
 import React from 'react'
 import styled from 'styled-components';
-// import profile from "...images/profile.png";
+
 
 const Container = styled.div`
+    height: 60px;
+
+`
+const Wrapper = styled.div`
+    border: 1px solid  #ff0000;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    width: 450px;
+    height: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+`
+const Image = styled.div`
+
+    
+`
+const Text = styled.div`
+    margin: 0px 30px 30px 30px;
     
 `
 const Profile = () => {
   return (
     <Container>
-        <div>
-            {/* <img src={profile} alt="profile" /> */}
-        </div>
+        <Wrapper>
+            <Image>
+                <img src={require('./images/Profile.png')} style={{width:400}} alt="profile" />
+            </Image>
+            <Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, 
+                odio quaerat! Et laboriosam recusandae aliquam a debitis est tempore
+                quo quia vel odit ab velit laborum alias eum, ratione repudiandae.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, 
+                odio quaerat! Et laboriosam recusandae aliquam a debitis est tempore
+                quo quia vel odit ab velit laborum alias eum, ratione repudiandae.
+            </Text>
+        </Wrapper>
     </Container>
   )
 }
