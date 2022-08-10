@@ -20,7 +20,7 @@ const Left = styled.div`
 `;
 const Logo = styled.h1`
     font-weight: bold;
-    font-size: 96px;
+    font-size: 80px;
 `
 const Right = styled.div`
     flex:1;
@@ -33,7 +33,7 @@ const Right = styled.div`
 
 const Button = styled.div`
     margin-left: 60px;
-    font-size: 32px;
+    font-size: 25px;
 `;
 
 //Navbar Component

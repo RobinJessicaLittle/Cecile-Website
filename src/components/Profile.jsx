@@ -10,8 +10,8 @@ const Wrapper = styled.div`
     border: 1px solid  #ff0000;
     position: absolute;
     top: 250px;
-    left: 90px;
-    width: 450px;
+    left: 50px;
+    width: 350px;
     height: 700px;
 
     display: flex;
@@ -25,7 +25,7 @@ const Image = styled.div`
     
 `
 const Text = styled.div`
-    margin: 0px 30px 30px 30px;
+    margin: 0px 40px 40px 40px;
     
 `
 const Profile = () => {
@@ -33,7 +33,7 @@ const Profile = () => {
     <Container>
         <Wrapper>
             <Image>
-                <img src={require('./images/Profile.png')} style={{width:400}} alt="profile" />
+                <img src={require('./images/Profile.png')} style={{width:300}} alt="profile" />
             </Image>
             <Text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis, 
                 odio quaerat! Et laboriosam recusandae aliquam a debitis est tempore

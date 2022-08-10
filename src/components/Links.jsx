@@ -10,7 +10,7 @@ const Wrapper = styled.div`
     bottom: 100px;
     right: 90px;
     width: 1000px;
-    height: 100px;
+    height: 120px;
 
     display: flex;
     flex-direction: ;
